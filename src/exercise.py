@@ -11,5 +11,7 @@ def main():
         if number < 0:
             neg_count += 1
 
+    print("Number of negative numbers: " + str(neg_count))
+
 if __name__ == '__main__':
     main()
